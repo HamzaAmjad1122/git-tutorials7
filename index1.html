@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+    <style>
+        .custom-navbar{
+            background-color: #222831;
+        }
+
+        a.nav-link {
+            margin-right: 12px;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        
+        a.nav-link.active {
+            margin-right: 12px;
+            color: #fff !important;
+            font-weight: 700;
+        }
+
+
+        .custom-header{
+            background: url('./images/banner.png');
+            background-size: cover;
+            min-height: 100vh;
+        }
+
+        .custom-header-h1 {
+            font-family: cursive;
+            color: #fff;
+            font-size: 90px;
+        }
+
+
+
+        .custom-header-h3{
+            color: #fff;
+        }
+        .custom-header-p{
+            color: #fff;
+        }
+        .custom-header-btn{
+        background-color: #29a19c;
+        border: none;
+        }
+
+        .section-1{
+            background: url('./images/section-1.png');
+                background-size: cover;
+                min-height: 100vh;
+                margin-top: -1px;
+        }
+
+      
+
+.section-1-h2{
+font-family: cursive;
+font-size: 62px;
+color: #fff;
+}
+.section-1-btn{
+background-color: #222831;
+border: none;
+margin-top: 25px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+
+
+.section-1-img{
+width: 70%;
+}
+.section-1-p{
+color: #fff;
+    padding-right: 65px;
+    margin-top: 15px;
+}
+
+      
+  
+.section-2{
+    background-color: #222831;
+}
+
+
+
+.section-2-btn{
+    background-color: #29a19c;
+border: none;
+margin-top: 25px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+
+
+}
+
+.section-3{
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+
+.section-3 h2{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.section-3 img{
+padding-top: 25px;
+    
+}
+.section-3 .btn{
+    background-color: #29a19c;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 650;
+
+
+}
+
+.section-4{
+    background-image: url(images/bg2.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+
+}
+.section-4 h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 80px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.section-4 p{
+    color: #fff;
+    font-style: italic;
+}
+
+.section-4 img{
+    width: 400px;
+    height: 400px;
+}
+
+.section-5{
+    background-image: url(images/bg3.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+
+.section-5 h1{
+	font-size: 72px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+.section-5 h3{
+	font-size: 40px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 600;
+}
+.section-5 p{
+	font-size: 20px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 450;
+}
+
+
+
+.section-6{
+    background-image: url(images/bg4.png);
+    background-size: cover;
+    min-height: 1400px;
+}
+.section-6 img{
+    width: 300px;
+    height: 300px;
+    margin-top: 450px;
+}
+
+.section-6 .btn{
+    margin-top: 25px;
+    background-color: #29a19c;
+    padding: 20px 40px;
+    font-weight: 650;
+}
+.section-6 p{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer{
+    background-image: url(images/bg5.png);
+    background-size: cover;
+    min-height: 600px;
+    margin-top: -150px;
+
+}
+.footer h1{
+    color: #fff;
+    font-weight: 700;
+    font-family: cursive;
+    padding-top: 180px;
+}
+
+
+.footer img{
+    margin-top: 180px;
+}
+
+
+.navbar-section a{
+    padding-top: 230px;
+    margin: 25px;
+
+}
+
+.list{
+    margin-top: 50px;
+}
+
+.list li{
+    color: #fff;
+    margin-top: 10px;
+    
+}
+.list li a{
+    
+    color: #fff;
+    font-weight:550;
+}
+
+.list2{
+    margin-top: 30px;
+}
+
+
+.list2 li{
+    color: #fff;
+    margin-top: 5px ;
+}
+
+.list2 li a{
+    color: #fff;
+    font-weight: 550;
+}
+.social-icons{
+    margin-top: 180px;
+}
+
+.social-icons li{
+    color: #fff;
+    display: inline;
+}
+
+.social-icons li a{
+    color: #fff;
+    
+}
+
+
+.social-icons li a i{
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .section-6{
+        padding-top: 220px;
+        min-height: 1000px;
+    }
+
+    .section-6 img{
+        width: 120px;
+        height: 120px;
+        margin-top: 10px;
+    }
+    .section-6 .btn{
+    background-color: #29a19c;
+    padding: 0 5px;
+    font-weight: 650;
+    margin-top: 190px;
+    position: relative;
+    right: 90px;
+}
+.section-6 p{
+    font-size: 10px;
+    width: 150px;
+    position: relative;
+    left: 120px;
+}
+
+.section-4 h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 45px;
+    font-family: cursive;
+    font-style: italic;
+    
+}
+
+.section-4 p{
+    color: #fff;
+    font-style: italic;
+    font-size: 10px;
+    
+    
+}
+
+.section-4 img{
+    width: 200px;
+    height: 200px;
+    
+}
+.footer img{
+    margin-top: 150px;
+}
+
+}
+
+
+    </style>
+
+</head>
+<body>
+
+
+      <header class="custom-header">
+        <div class="container">
+
+
+
+            
+            <nav class="navbar navbar-expand-lg custom-navbar">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                    </ul>
+                </div>
+
+                <a class="navbar-brand" href="#"> <img src="./images/logo.png"> </a>
+
+            </nav>
+
+
+            <div class="row">
+
+                <div class=" col-md-6 col-sm-12" >
+                    <h1 class="custom-header-h1">Coffee Time</h2>
+                        <h3 class="custom-header-h3">YOUR HEADING</h3>
+                        <p class="custom-header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam.
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <button class="btn btn-primary custom-header-btn">Order Now</button>
+                </div>
+                
+                <div class="col-6 col-md-6 col-sm-12" >
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+           
+
+            <path fill="#29a19c" fill-opacity="1" d="M0,224L34.3,218.7C68.6,213,137,203,206,170.7C274.3,139,343,85,411,53.3C480,21,549,11,617,37.3C685.7,64,754,128,823,154.7C891.4,181,960,171,1029,160C1097.1,149,1166,139,1234,128C1302.9,117,1371,107,1406,101.3L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+          </svg>
+
+      </header>
+      
+      <section class="section-1">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 col-sm-12">
+                    <h2 class="section-1-h2 mt-5">Black</h2>
+                    <h2 class="section-1-h2">Coffee</h2>
+                    
+                    <button class=" section-1-btn">
+                        Order Now
+                    </button>
+                </div>
+                
+                <div class="col-md-6 col-sm-12">
+                    <img class="section-1-img" src="./images/section-1-img.png" >
+                    <p class="section-1-p">Lorem ipsum dolor sit amet, consectetur adipis
+cing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad 
+minim veniam, quis nostrud exercitation 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#222831" fill-opacity="1" d="M0,128L26.7,122.7C53.3,117,107,107,160,128C213.3,149,267,203,320,229.3C373.3,256,427,256,480,240C533.3,224,587,192,640,192C693.3,192,747,224,800,202.7C853.3,181,907,107,960,106.7C1013.3,107,1067,181,1120,197.3C1173.3,213,1227,171,1280,149.3C1333.3,128,1387,128,1413,128L1440,128L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
+          </svg>
+
+      </section>
+
+      <section class="section-2">
+
+        
+        <div class="container">
+            <div class="row">
+
+
+                
+                <div class="col-md-6 col-sm-12">
+                    <img class="section-1-img" src="./images/section-1-img.png" >
+                    <p class="section-1-p">Lorem ipsum dolor sit amet, consectetur adipis
+cing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad 
+minim veniam, quis nostrud exercitation 
+                    </p>
+                </div>
+
+                <div class="col-md-6 col-sm-12 text-center ">
+                    <h2 class="section-1-h2 mt-5 ">&nbsp &nbsp Hot</h2>
+                    <h2 class="section-1-h2">Coffee</h2>
+                    
+                    <button class="section-2-btn">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+      </section>
+
+
+
+      
+      <section class="section-2">
+
+        
+        <div class="container">
+            <div class="row">
+
+
+                
+                <div class="col-md-6 col-sm-12 text-center ">
+                    <h2 class="section-1-h2 mt-5 "> White</h2>
+                    <h2 class="section-1-h2">Coffee</h2>
+                    
+                    <button class="section-2-btn">
+                        Order Now
+                    </button>
+                </div>
+                
+                <div class="col-md-6 col-sm-12">
+                    <img class="section-1-img" src="images/milk.png" >
+                    <p class="section-1-p">Lorem ipsum dolor sit amet, consectetur adipis
+cing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad 
+minim veniam, quis nostrud exercitation 
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+      </section>
+
+      <section class="section-3">
+<div class="container">
+<div class="row">
+
+<div class="col-md-3 col-sm-12"></div>
+<div class="col-md-6 col-sm-12 text-center">
+    <h2>Voucher</h2>
+    <img src="images/voucher.png" class="img-fluid ">
+    <button type="button" class="btn btn-success mt-5">Get Voucher now</button>
+</div>
+<div class="col-md-3 col-sm-12"></div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+      </section>
+      <section class="section-4">
+        <div class="container ">
+
+            <div class="row ">
+                <div class="col-md-6 col-sm-12">
+                    <img src="images/client1.png" class="img-fluid">
+            <h1>John Peter</h1>
+            <p>		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut elit non lorem consequat faucibus. Etiam maximus urna non ipsum sagittis pulvinar. Fusce aliquam placerat urna, ac tempus turpis vehicula a. Praesent vehicula at lectus ut elementum. Sed pretium venenatis aliquet. Nullam sed leo quis mi placerat aliquam. Sed facilisis libero id massa aliquet dictum.</p>
+            
+            
+                </div>
+                <div class="col-md-6 col-sm-12">
+            <img src="images/client2.png" class="img-fluid">
+            <h1>Ella Thomson</h1>
+            <p>		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut elit non lorem consequat faucibus. Etiam maximus urna non ipsum sagittis pulvinar. Fusce aliquam placerat urna, ac tempus turpis vehicula a. Praesent vehicula at lectus ut elementum. Sed pretium venenatis aliquet. Nullam sed leo quis mi placerat aliquam. Sed facilisis libero id massa aliquet dictum.</p>
+            
+                </div>
+            
+            
+            
+            </div>
+            
+
+
+
+
+        </div>
+
+
+
+
+      </section>
+<section class="section-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-12"></div>
+            <div class="col-md-6 col-sm-12">
+                <h1>We Are Open</h1>
+                <h3>Monday-Friday</h3>
+                <p>10a.m to 10p.m</p>
+                <h3>Saturday and Sunday</h3>
+                <p>10a.m to 10p.m</p>
+    
+    
+    
+            </div>
+            <div class="col-md-3 col-sm-12"></div>
+    
+    
+    
+    
+    
+    
+        </div>	
+    
+    
+    
+    
+    
+    
+    
+        </div>
+        
+
+
+
+
+</section>
+
+
+<section class="section-6">
+    <div class="container">
+        <div class="row text-center pt-5">
+			
+            <div class="col-md-4 col-sm-12">
+                <img src="C:\Users\BINARY COMPUTERS\Desktop\projects2\images\newyork.png" class="img-fluid">
+            <button type="button" class="btn btn-success">New York</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut elit non lorem consequat faucibus. Etiam maximus urna non ipsum sagittis pulvinar.</p>
+            
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <img src="images/jakarta.png" class="img-fluid">
+                <button type="button" class="btn btn-success">Jakarta</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut elit non lorem consequat faucibus. Etiam maximus urna non ipsum sagittis pulvinar.</p>
+                
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <img src="images/paris.png" class="img-fluid">
+                <button type="button" class="btn btn-success">Paris</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut elit non lorem consequat faucibus. Etiam maximus urna non ipsum sagittis pulvinar.</p>
+            </div>
+            
+            
+            
+            
+            
+                    </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+</section>
+
+<footer class="footer">
+
+    <div class="container">
+	
+        <div class="row">
+            
+        <div class="col-md-6 col-sm-12">
+            <img src="images/logo.png" class="img-fluid">
+        
+        <div class="navbar-section">
+            <nav class="navbar navbar-expand-lg ">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                    </ul>
+                </div>
+
+        </nav>
+        </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <h1>Information</h1>
+            <ul class="list">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Branches</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Map</a></li>
+            </ul>
+        
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <h1>Contact Us</h1>
+            <ul class="list2">
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Your_id@gmail.com</a></li>
+                
+        
+        
+            </ul>
+        
+        
+             <ul class="social-icons">
+                        <li><a href="#"><i class='fa fa-facebook'></i></a></li>
+                        <li><a href="#"><i class='fa fa-google'></i></a></li>
+                        <li><a href="#"><i class='fa fa-twitter'></i></a></li>
+                        <li><a href="#"><i class='fa fa-pinterest'></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        </div>
+        
+        
+        
+        
+        
+        </div>
+        
+
+
+
+
+
+</footer>
+      
+</body>
+</html>
